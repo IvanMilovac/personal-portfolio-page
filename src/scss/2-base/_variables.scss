@@ -6,4 +6,10 @@ $bgColor1: #222;
 $bgColor2: #444;
 $yearBgColor: #333;
 
+$breakpoints: (
+  "sm": 550px,
+  "md": 768px,
+  "lg": 1024px,
+);
+
 $breakpoint: 700px;

@@ -1,0 +1,5 @@
+@use "./variables";
+
+@function breakpoints($size) {
+  @return map-get(variables.$breakpoints, $size);
+}

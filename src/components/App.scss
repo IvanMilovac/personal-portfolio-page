@@ -1,6 +1,7 @@
 @use "../scss/2-base/mixins";
 
 html {
+  overflow-y: overlay;
   body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
