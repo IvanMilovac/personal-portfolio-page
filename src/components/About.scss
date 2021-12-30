@@ -1,18 +1,15 @@
 @use "../scss/2-base/mixins";
-@use "../scss/2-base/variables";
+@use "../scss/2-base/functions";
 
 .about-container {
   flex: 1 1 auto;
   @include mixins.flexContainer($dir: column, $mainAlign: flex-start);
-  .switch-button {
-    margin-block: 2.5rem;
-  }
 }
 
 .timeline {
   position: relative;
-  padding: 5rem 1rem;
-  margin: 0 auto;
+  padding: 3rem 1rem;
+  margin: 1rem auto;
   max-width: 1300px;
 
   &:before {
@@ -25,13 +22,7 @@
     top: 0;
   }
 
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  @media screen and (min-width: variables.$breakpoint) {
+  @include mixins.mediaQuery(functions.breakpoints("md")) {
     padding: 2rem;
     &:before {
       left: calc(50% - 1px);

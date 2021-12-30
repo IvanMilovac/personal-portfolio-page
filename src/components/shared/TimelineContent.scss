@@ -1,5 +1,5 @@
-@use "../../scss/2-base/variables";
 @use "../../scss/2-base/mixins";
+@use "../../scss/2-base/functions";
 
 .timeline__item {
   padding: 1rem 1.5rem;
@@ -23,7 +23,7 @@
     border-width: 10px;
     transform: rotate(45deg);
   }
-  @include mixins.mediaQuery(variables.$breakpoint) {
+  @include mixins.mediaQuery(functions.breakpoints("md")) {
     width: 44%;
     margin: 1rem;
 
@@ -43,18 +43,18 @@
   text-align: center;
   max-width: 150px;
   margin: 0 48px 0 auto;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   background-color: #fffc;
   color: rgba(5, 5, 5, 0.775);
   line-height: 1;
   border-radius: 1rem;
-  padding: 0.5rem 1rem 1rem;
+  padding: 1rem 1rem;
 
   &:before {
     display: none;
   }
 
-  @media screen and (min-width: variables.$breakpoint) {
+  @include mixins.mediaQuery(functions.breakpoints("md")) {
     text-align: center;
     margin: 0 auto;
 
@@ -68,16 +68,23 @@
       }
     }
   }
+  @include mixins.mediaQuery(functions.breakpoints("md")) {
+    font-size: 1.5rem;
+  }
 }
 
 .timeline__title {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.25rem;
+  @include mixins.mediaQuery(functions.breakpoints("md")) {
+    font-size: 1.35rem;
+  }
 }
 
 .timeline__blurb {
   line-height: 1.5;
   font-size: 1rem;
+  font-weight: bold;
   margin: 0.5rem 0 0;
   color: #000;
 }
@@ -85,4 +92,5 @@
 .timeline__description {
   color: #000a;
   font-style: italic;
+  font-weight: normal;
 }

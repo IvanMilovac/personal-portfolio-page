@@ -1,16 +1,19 @@
+@use "../../scss/2-base/mixins";
+@use "../../scss/2-base/functions";
+
 .switch-button {
   background: rgba(206, 206, 206, 0.972);
   border-radius: 30px;
   overflow: hidden;
   width: 240px;
   text-align: center;
-  font-size: 18px;
+  font-size: 1rem;
   letter-spacing: 1px;
   color: #182031;
   position: relative;
   padding-right: 120px;
   position: relative;
-
+  margin-block: 2rem;
   &:before {
     content: "Work";
     position: absolute;
@@ -65,5 +68,8 @@
         position: relative;
       }
     }
+  }
+  @include mixins.mediaQuery(functions.breakpoints("md")) {
+    font-size: 1rem;
   }
 }

@@ -2,7 +2,7 @@ export const educationData = [
   {
     id: "middle-school",
     startYear: 2008,
-    name: "Tehnical School - Šibenik",
+    name: "Tehnical High School - Šibenik",
     direction: "Computer Technican",
     description: "Experience with HTML, CSS, JS, C++",
   },

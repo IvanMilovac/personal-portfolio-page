@@ -8,7 +8,6 @@ import mobileMenu from "../../assets/mobileMenu.png";
 const LinkStyle = {
   color: "#fff",
   textDecoration: "none",
-  fontSize: "1.25rem",
 };
 
 const Navbar = () => {
