@@ -1,0 +1,8 @@
+@use "../../scss/2-base/mixins";
+
+.socials {
+  @include mixins.flexContainer($gap: 1.25rem);
+  img {
+    width: 2rem;
+  }
+}

@@ -8,12 +8,6 @@
   max-width: 1440px;
   padding: 0.25rem 2rem;
   @include mixins.flexContainer($dir: column, $gap: 0.5rem);
-  .socials {
-    @include mixins.flexContainer($gap: 1.25rem);
-    img {
-      width: 2rem;
-    }
-  }
   @include mixins.mediaQuery(functions.breakpoints("sm")) {
     @include mixins.flexContainer($mainAlign: space-between, $dir: row);
     padding: 1rem 3rem;

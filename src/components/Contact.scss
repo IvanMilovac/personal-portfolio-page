@@ -1,0 +1,28 @@
+@use "../scss/2-base/mixins";
+@use "../scss/2-base/functions";
+
+.contact-container {
+  flex: 1 1 auto;
+  @include mixins.flexContainer($dir: column);
+  .contact-container-content {
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0.75rem;
+    h2 {
+      text-align: center;
+      color: #fff;
+      font-size: 1.75rem;
+      margin-bottom: 2rem;
+    }
+    img {
+      width: 50px;
+      margin-inline: 10px;
+    }
+    @include mixins.mediaQuery(functions.breakpoints("md")) {
+      padding: 2rem 4rem;
+      h2 {
+        margin-bottom: 3.5rem;
+      }
+    }
+  }
+}

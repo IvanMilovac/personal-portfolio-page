@@ -1,7 +1,17 @@
 import React from "react";
 
+import "./Contact.scss";
+import Socials from "./shared/Socials.jsx";
+
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <div className="contact-container">
+      <div className="contact-container-content">
+        <h2>Contact me over...</h2>
+        <Socials />
+      </div>
+    </div>
+  );
 };
 
 export default Contact;
