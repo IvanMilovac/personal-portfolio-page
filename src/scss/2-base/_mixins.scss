@@ -1,0 +1,24 @@
+@mixin backgroundImage {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@mixin flexContainer(
+  $mainAlign: center,
+  $crossAlign: center,
+  $dir: row,
+  $gap: 0
+) {
+  display: flex;
+  justify-content: $mainAlign;
+  align-items: $crossAlign;
+  flex-direction: $dir;
+  gap: $gap;
+}
+
+@mixin mediaQuery($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}

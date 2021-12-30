@@ -1,0 +1,20 @@
+@use "../../scss/2-base/mixins";
+
+.footer-container {
+  flex: 0 1 auto;
+  color: white;
+  padding: 1rem 3rem;
+  width: 100%;
+  max-width: 1560px;
+  @include mixins.flexContainer($mainAlign: space-between);
+  .socials {
+    @include mixins.flexContainer($gap: 1.25rem);
+    img {
+      width: 2rem;
+    }
+  }
+  @include mixins.mediaQuery(600px) {
+    padding: 0.25rem 2rem;
+    @include mixins.flexContainer($dir: column, $gap: 0.5rem);
+  }
+}
