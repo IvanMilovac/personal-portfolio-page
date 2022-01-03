@@ -16,7 +16,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    hot: true,
+    hot: "only",
     open: true,
     port: 3000,
   },
