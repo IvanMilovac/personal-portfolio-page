@@ -30,14 +30,14 @@ export const workData = [
     name: "Schneider Electric - Zagreb",
     position: "Solution Architect Engineer",
     description:
-      "Experience with npm, Node.js and Node-red, worked in sales and marketing department on promotion and sales of software. Attend on Schneider Academy for digitalisation in industry.",
+      "Experience with npm, Node.js, and Node-red. Worked in sales and marketing department on promotion and sales of software. Attended Schneider Academy for digitalization which lasted for 1 year.",
   },
   {
     id: "i4next",
     startYear: 2020,
     name: "i4next - Zagreb",
-    position: "Key Account Mannager",
-    description: "Helping with marketing and business development",
+    position: "Key Account Manager",
+    description: null,
   },
   {
     id: "teb-automatika",
@@ -45,6 +45,6 @@ export const workData = [
     name: "TEB Automatika - Zagreb",
     position: "Software Engineer",
     description:
-      "Experience with HTML, CSS, SASS, Tailwind, JS, React, Node.js, Mongo.db.",
+      "Experience with HTML, CSS, SASS, Tailwind, JS, React, Node.js, Mongo.db,...",
   },
 ];

@@ -1,3 +1,17 @@
 .work-container {
   flex: 1 1 auto;
+  padding-top: 50px;
+  h2 {
+    color: white;
+    a {
+      display: inline-block;
+      text-decoration: underline;
+      font-size: 1.75rem;
+      color: white;
+      transition: all 0.5s ease-in;
+    }
+    a:hover {
+      transform: scale(1.01);
+    }
+  }
 }

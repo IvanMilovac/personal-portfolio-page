@@ -4,6 +4,9 @@
 .about-container {
   flex: 1 1 auto;
   @include mixins.flexContainer($dir: column, $mainAlign: flex-start);
+  .about-page-title {
+    color: white;
+  }
 }
 
 .timeline {
@@ -17,7 +20,7 @@
     position: absolute;
     height: 100%;
     width: 2px;
-    background: #fffc;
+    background: rgba(68, 68, 68, 0.8);
     right: 40px;
     top: 0;
   }

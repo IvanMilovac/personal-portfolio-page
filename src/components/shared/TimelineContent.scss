@@ -3,7 +3,7 @@
 
 .timeline__item {
   padding: 1rem 1.5rem;
-  background: #fffc;
+  background: #2e2e2ecc;
   border-radius: 1rem;
   position: relative;
   margin: 1rem 3rem 1rem 1rem;
@@ -16,10 +16,10 @@
   }
 
   &:before {
-    right: -10px;
+    right: -9.5px;
     top: calc(50% - 5px);
     border-style: solid;
-    border-color: #fffc #fffc transparent transparent;
+    border-color: #2e2e2ecc #2e2e2ecc transparent transparent;
     border-width: 10px;
     transform: rotate(45deg);
   }
@@ -33,7 +33,7 @@
       &:before {
         right: auto;
         left: -10px;
-        border-color: transparent transparent #fffc #fffc;
+        border-color: transparent transparent #2e2e2ecc #2e2e2ecc;
       }
     }
   }
@@ -44,8 +44,8 @@
   max-width: 150px;
   margin: 0 48px 0 auto;
   font-size: 1.125rem;
-  background-color: #fffc;
-  color: rgba(5, 5, 5, 0.775);
+  background-color: #2e2e2e;
+  color: rgba(255, 255, 255, 0.775);
   line-height: 1;
   border-radius: 1rem;
   padding: 1rem 1rem;
@@ -76,6 +76,7 @@
 .timeline__title {
   margin: 0;
   font-size: 1.25rem;
+  color: #fff;
   @include mixins.mediaQuery(functions.breakpoints("md")) {
     font-size: 1.35rem;
   }
@@ -86,11 +87,11 @@
   font-size: 1rem;
   font-weight: bold;
   margin: 0.5rem 0 0;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 .timeline__description {
-  color: #000a;
+  color: rgba(255, 255, 255, 0.667);
   font-style: italic;
   font-weight: normal;
 }

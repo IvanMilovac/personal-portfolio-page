@@ -11,6 +11,7 @@ const About = () => {
   const [education, setEducation] = useState(true);
   return (
     <div className="about-container">
+      <h2 className="about-page-title">About me...</h2>
       <SliderEducation setEducation={setEducation} />
       <div className="timeline">
         {education && <Timeline data={educationData} />}
