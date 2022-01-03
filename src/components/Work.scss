@@ -1,6 +1,7 @@
 .work-container {
   flex: 1 1 auto;
   padding-top: 50px;
+  margin: 0 auto;
   h2 {
     color: white;
     a {
@@ -13,5 +14,8 @@
     a:hover {
       transform: scale(1.01);
     }
+    width: 100%;
+    max-width: 90%;
+    text-align: center;
   }
 }

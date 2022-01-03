@@ -158,7 +158,7 @@ const Technology = () => {
   return (
     <div className="technology-container">
       <div className="technology-container-wrapper">
-        <h2>Have experience with...</h2>
+        <h2>I have experience with...</h2>
         <div className="technology-container-filter">
           <ul>
             <li
