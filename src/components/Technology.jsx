@@ -162,37 +162,37 @@ const Technology = () => {
         <div className="technology-container-filter">
           <ul>
             <li
-              className={filterState === "all" ? "active" : ""}
+              className={filterState === "all" ? "active-link" : ""}
               onClick={() => setFilterState("all")}
             >
               All
             </li>
             <li
-              className={filterState === "client" ? "active" : ""}
+              className={filterState === "client" ? "active-link" : ""}
               onClick={() => setFilterState("client")}
             >
               Client
             </li>
             <li
-              className={filterState === "server" ? "active" : ""}
+              className={filterState === "server" ? "active-link" : ""}
               onClick={() => setFilterState("server")}
             >
               Server
             </li>
             <li
-              className={filterState === "tools" ? "active" : ""}
+              className={filterState === "tools" ? "active-link" : ""}
               onClick={() => setFilterState("tools")}
             >
               Tools
             </li>
             <li
-              className={filterState === "database" ? "active" : ""}
+              className={filterState === "database" ? "active-link" : ""}
               onClick={() => setFilterState("database")}
             >
               Cloud
             </li>
             <li
-              className={filterState === "design" ? "active" : ""}
+              className={filterState === "design" ? "active-link" : ""}
               onClick={() => setFilterState("design")}
             >
               Design
