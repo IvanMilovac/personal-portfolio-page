@@ -7,6 +7,7 @@ import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
 import ECom from "../assets/ecom-snip.PNG";
 import CRMSnip from "../assets/CRM-snip.PNG";
+import PortfolioSnip from "../assets/Portfolio-snip.PNG";
 import MUI from "../assets/mui.png";
 import TS from "../assets/typescript.png";
 import reactIcon from "../assets/react.png";
@@ -31,13 +32,20 @@ const Work = () => {
         gitLink="https://github.com/IvanMilovac/CRM-react"
         liveLink="https://crm-project-im.web.app/login"
         image={CRMSnip}
+        techStack={[reactIcon, sass]}
+      />
+      <Card
+        title={<h3 className="card-title">Personal portfolio page</h3>}
+        gitLink="https://github.com/IvanMilovac/personal-portfolio-page"
+        liveLink="https://ivan-milovac.web.app/"
+        image={PortfolioSnip}
         techStack={[reactIcon, sass, Webpack, Babel]}
       />
       <Card
         title={
           <h3 className="card-title">
             <a href="https://github.com/IvanMilovac" target="_blank">
-              Other project are on my Github account{" "}
+              Other projects are on my Github account{" "}
               <FontAwesomeIcon icon={faLongArrowAltRight} />
             </a>
           </h3>
