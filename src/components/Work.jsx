@@ -7,6 +7,7 @@ import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 
 import ECom from "../assets/ecom-snip.PNG";
 import CRMSnip from "../assets/CRM-snip.PNG";
+import CountrySnip from "../assets/Country-snip.PNG";
 import PortfolioSnip from "../assets/Portfolio-snip.PNG";
 import MUI from "../assets/mui.png";
 import TS from "../assets/typescript.png";
@@ -25,6 +26,13 @@ const Work = () => {
         gitLink="https://github.com/IvanMilovac/react-ts-ecommerce"
         liveLink="https://e-com-im.web.app/"
         image={ECom}
+        techStack={[reactIcon, MUI, TS]}
+      />
+      <Card
+        title={<h3 className="card-title">Countries App</h3>}
+        gitLink="https://github.com/IvanMilovac/react-ts-countries-info"
+        liveLink="https://countries-ts-app.web.app/"
+        image={CountrySnip}
         techStack={[reactIcon, MUI, TS]}
       />
       <Card
