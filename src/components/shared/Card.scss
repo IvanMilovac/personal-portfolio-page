@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 1.25rem;
+  padding: 1.5rem;
   width: 22rem;
-  min-height: 12rem;
+  min-height: 15rem;
   border-radius: 0.5rem;
   background: #000b;
 
@@ -19,6 +19,7 @@
     color: white;
     text-align: center;
     margin-block: 1rem;
+    font-size: 1.55rem;
   }
   .card-link-container {
     display: flex;
@@ -49,15 +50,15 @@
   gap: 0.5rem;
   cursor: pointer;
   img {
-    width: 1.5rem;
+    width: 2rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: white;
   }
 }
 
 .tech-img {
-  width: 2rem;
+  width: 3rem;
   padding: 0.25rem;
 }
