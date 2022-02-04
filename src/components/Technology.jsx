@@ -24,6 +24,7 @@ import Inkscape from "../assets/inkscape.png";
 import AdobeXD from "../assets/adobexd.png";
 import Figma from "../assets/figma.png";
 import Jwt from "../assets/jwt.png";
+import Ts from "../assets/ts.png";
 
 import "./Technology.scss";
 
@@ -143,6 +144,12 @@ const techObjects = [
     category: "server",
     icon: Jwt,
     name: "Jwt",
+  },
+  {
+    id: 22,
+    category: "client",
+    icon: Ts,
+    name: "TypeScript",
   },
 ];
 
