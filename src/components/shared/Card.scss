@@ -1,0 +1,64 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  width: 22rem;
+  min-height: 15rem;
+  border-radius: 0.5rem;
+  background: #000b;
+
+  .card-img {
+    width: 100%;
+    border: 2px solid white;
+  }
+  .card-title,
+  a {
+    color: white;
+    text-align: center;
+    margin-block: 1rem;
+    font-size: 1.55rem;
+  }
+  .card-link-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-block: 1rem;
+  }
+  .card-tech-stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+
+.divider {
+  width: 25%;
+  height: 1px;
+  background: white;
+}
+
+.link-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  img {
+    width: 2rem;
+  }
+  p {
+    font-size: 1.25rem;
+    color: white;
+  }
+}
+
+.tech-img {
+  width: 3rem;
+  padding: 0.25rem;
+}

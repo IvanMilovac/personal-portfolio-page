@@ -1,21 +1,9 @@
 .work-container {
   flex: 1 1 auto;
-  padding-top: 50px;
-  h2 {
-    color: white;
-    margin: 0 auto;
-    a {
-      display: inline-block;
-      text-decoration: underline;
-      font-size: 1.75rem;
-      color: white;
-      transition: all 0.5s ease-in;
-    }
-    a:hover {
-      transform: scale(1.01);
-    }
-    width: 100%;
-    max-width: 90%;
-    text-align: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-block: 2rem;
 }
