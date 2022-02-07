@@ -2,7 +2,7 @@ import React from "react";
 
 import "./TimelineContent.scss";
 
-const Timeline = ({ data, current }) => {
+const Timeline = ({ data, current, graduated }) => {
   return (
     <>
       {data.map((item) => (
@@ -22,6 +22,9 @@ const Timeline = ({ data, current }) => {
       ))}
       {current && (
         <h2 className="timeline__item timeline__item--year">Current</h2>
+      )}
+      {graduated && (
+        <h2 className="timeline__item timeline__item--year">2018</h2>
       )}
     </>
   );

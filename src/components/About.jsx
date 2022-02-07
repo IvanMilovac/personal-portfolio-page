@@ -14,7 +14,7 @@ const About = () => {
       <h2 className="about-page-title">About my...</h2>
       <SliderEducation setEducation={setEducation} />
       <div className="timeline">
-        {education && <Timeline data={educationData} />}
+        {education && <Timeline data={educationData} graduated />}
         {!education && <Timeline data={workData} current />}
       </div>
     </div>
