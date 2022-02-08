@@ -37,7 +37,7 @@ const Work = () => {
       />
       <Card
         title={<h3 className="card-title">CRM App</h3>}
-        gitLink="https://github.com/IvanMilovac/CRM-react"
+        gitLink="https://github.com/IvanMilovac/react-crm-ts"
         liveLink="https://crm-project-im.web.app/login"
         image={CRMSnip}
         techStack={[reactIcon, MUI]}
