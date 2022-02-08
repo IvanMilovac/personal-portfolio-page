@@ -40,7 +40,7 @@ const Work = () => {
         gitLink="https://github.com/IvanMilovac/CRM-react"
         liveLink="https://crm-project-im.web.app/login"
         image={CRMSnip}
-        techStack={[reactIcon, sass]}
+        techStack={[reactIcon, MUI]}
       />
       <Card
         title={<h3 className="card-title">Personal portfolio page</h3>}
